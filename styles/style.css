@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    font-family:sans-serif;
+}
+/* section styles */
+.section-bg-image {
+    background-image: url("../images/banner/banner3.png");
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 808px;
+    left: 0px;
+    top: 0px;
+    background-image: cover;
+}
+
+.bg-title{
+    color: white;
+   align-items: right;
+   padding: 216px 230px 364px 845px;
+
+
+}
+
+.title {
+    font-weight: 700;
+    font-size: 65px;
+    
+
+}
+
+.description {
+  
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* btn styles */
+.btn {
+    height: 55px;
+    background-color: #FD6E0A;
+    font-weight: 700px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    font-size: 20px;
+    border: 0;
+
+}
+.info{
+    display: flex;
+    align-items: center;
+    margin: 260px;
+    border: 300px 300px;
+
+}
+.info-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    padding-bottom: 24px;
+}
+.info-description{
+    font-weight: 400px;
+    font-size: 16px;
+    color: #444343;
+    display: contents;
+    
+    
+}
+
+/* style-li */
+
+li {
+    margin-bottom: 8px;
+}
+
+/* my plans styles */
+.my-plan{
+    text-align: center;
+    margin: 200px;
+}
+.my-plan h1{
+    font-weight: 700px;
+    font-size: 40px;
+    color: #151414;
+}
+
+.my-plan h2{
+    margin-bottom: 16px;
+}
+.plan-info{
+    display: flex;
+    gap: 100px;
+}
+.plan h2{
+    font-weight: 700px;
+    font-size: 30px;
+    color: #151414;
+}
+.plan p{
+    font-size: 25px;
+    font-weight: 500px;
+    color: #737272;
+}
+/* image style */
+.watch-image{
+    background-image:linear-gradient(to right,rgb(6, 45, 241), rgb(255,0,0,0)),url("../images/watch.png");
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 1140px;
+    margin-left: 230px;
+    margin-right: 617px;
+    margin-bottom: 100px;
+    border-radius: 8px;
+}
+.watch-image-info{
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: 64px;
+    margin-right: 617px;
+    padding-top: 59px;
+    color: #FFFFFF;
+}
+.call-button{
+    height: 64px;
+    border-radius: 5px;
+    background-color: #3978ee;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0px;
+    margin: 59px 617px 141px 64px;
+    padding: 18px 35px;
+}
+/* footer styles */
+.varsity{
+    display: flex;
+    align-items: center;
+    margin: 260px;
+    border: 300px 300px;
+
+}
+.space{
+    margin-right: 20px;
+}
+.varsity-name{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    padding-bottom: 24px;
+}
+.varsity-description{
+    font-weight: 400px;
+    font-size: 16px;
+    color: #444343;
+    display: contents;
+    
+    
+}
+.foot-style{
+    text-align: left;
+}
+.footer{
+    display: flex;
+    height: 577px;
+    gap: 200px;
+    text-align: center;
+    background: #151414;
+}
+.future{
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 200px;
+    margin-right: 230px;
+    color: #F8F8F8;
+    margin-top: 130px;
+}
+.future-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-right: 230px;
+    margin-left: 200px;
+    margin-top: 16px;
+
+}
+.email{
+     font-size: 16px;
+     font-weight: 400px;
+     margin-right: 230px;
+     margin-left: 200px;
+     margin-top: 24px;
+     color: #FFFFFF;
+}
+.phone{
+     font-size: 16px;
+     font-weight: 400px;
+     margin-right: 230px;
+     margin-left: 200px;
+     margin-top: 24px;
+     color: #FFFFFF;
+}
+.icon{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 230px;
+    margin-top: 32px;
+    gap: 5%;
+    align-items: center;
+}
+.sub{
+    font-size: 25px;
+    font-weight: 600px;
+    margin-left: 200px;
+    margin-top: 130px;
+    margin-right: 230px;
+    margin-bottom: 31px;
+    color: #FFFFFF;
+}
+.about-channel input{
+    margin-bottom: 16px;
+    border: 8px solid #FFFFFF;
+}
+/* btn style */
+.sub-button{
+    height: 55px;
+    background-color: #FD6E0A;
+    font-weight: 700px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    font-size: 20px;
+    border: 0;
+
+}
